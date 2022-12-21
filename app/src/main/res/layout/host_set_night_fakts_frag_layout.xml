@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".planningFragments.hostFragments.SetNightFakts"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/headerTextSetNightFakts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/set_frame_dash_text"
+        android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/frameSetNightFakts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerGames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:spinnerMode="dropdown" />
+            <Spinner
+                android:id="@+id/spinnerMeals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:spinnerMode="dropdown" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/commit"
+                android:id="@+id/buttonSetFrameCommit"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+</LinearLayout>

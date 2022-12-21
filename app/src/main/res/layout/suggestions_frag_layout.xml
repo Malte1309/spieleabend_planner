@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".planningFragments.SuggestionsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/your_suggestions_dash_text"
+            android:textSize="25sp" />
+        <Spinner
+            android:id="@+id/spinnerGames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:spinnerMode="dropdown" />
+        <Spinner
+            android:id="@+id/spinnerMeals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:spinnerMode="dropdown" />
+        <EditText
+            android:id="@+id/editSuggestGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/suggestion_game"
+            android:autofillHints="other"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editSuggestMeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/suggestion_meal"
+            android:autofillHints="other"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/commit"
+            android:id="@+id/buttonSuggestionCommit"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>

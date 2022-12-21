@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Theme.Spieleabend.MyView" parent="">
+        <item name="android:background">@color/gray_600</item>
+        <item name="exampleColor">@color/light_blue_600</item>
+    </style>
+
+</resources>

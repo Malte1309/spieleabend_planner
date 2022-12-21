@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eval_double">You can\'t vote yourself!</string>
+</resources>
